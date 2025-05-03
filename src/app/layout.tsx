@@ -1,7 +1,7 @@
 // src/app/layout.tsx
 import type React from 'react';
 import Header from './component/Header';
-import Footer from './component/footer';
+import Footer from './component/Footer';
 import './globals.css';  // Make sure your global CSS is imported
 
 export const metadata = {
