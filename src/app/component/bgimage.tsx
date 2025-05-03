@@ -39,10 +39,10 @@ const DynamicBackground = () => {
         Assurance Textile Inspection and Testing Services is a trusted third-party inspection agency in Tirupur, India, specializing in final inspections, quality consulting, and training. Our skilled team ensures accurate results and timely services. We help clients gain a competitive edge through tailored, reliable solutions.
         </p>
         <div className="space-x-4">
-        <button className="bg-transparent border-2 border-white text-white px-6 py-2 rounded-lg hover:bg-white hover:text-blue-600 transition duration-300">
+        <button type="button" className="bg-transparent border-2 border-white text-white px-6 py-2 rounded-lg hover:bg-white hover:text-blue-600 transition duration-300">
             Our Services
           </button>
-          <button className="bg-transparent border-2 border-white text-white px-6 py-2 rounded-lg hover:bg-white hover:text-blue-600 transition duration-300">
+          <button type="button" className="bg-transparent border-2 border-white text-white px-6 py-2 rounded-lg hover:bg-white hover:text-blue-600 transition duration-300">
             About Us
           </button>
         </div>

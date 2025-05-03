@@ -23,7 +23,7 @@ const Introduction = () => {
                 <span className="font-bold">Assure Point Inspection and Testing Services</span> is a Third-party Inspection agency and Quality Consultant based in Tirupur, India. Established in 2012, we specialize in Final Inspections, Quality Consulting, Conducting Quality Trainings, and Implementing production and quality systems in factories.
               </p>
               <p className="mb-4">
-                We primarily focus on <span className="font-semibold">"The Accuracy of test results and assuring you better results on time."</span>
+                We primarily focus on <span className="font-semibold">&quot;The Accuracy of test results and assuring you better results on time.&quot;</span>
               </p>
               <p className="mb-4">
                 Our team consists of highly skilled Quality technicians, all of whom are Textile Graduates. With over 12 years of experience in the Inspection field, we bring vast knowledge of international standards. Our experts have previously worked with SGS India Pvt Ltd. and Mondial Orient Ltd (C&A) and have conducted inspections throughout ASIA.
@@ -53,8 +53,8 @@ const Introduction = () => {
         </p>
         <p className="mb-4 text-lg">
           We believe in partnering with our customers to deliver the ultimate level of satisfaction. Our philosophy is that you should
-          not have to adapt your business to your vendor’s capabilities. That's why we tailor our systems and forms to meet your
-          company's specific needs.
+          not have to adapt your business to your vendor’s capabilities. That&apos;s why we tailor our systems and forms to meet your
+          company&apos;s specific needs.
         </p>
         <p className="mb-4 text-lg">
           The information we provide is highly accurate, allowing you to clearly identify liabilities in pending claims. Access to this
@@ -93,7 +93,7 @@ const Introduction = () => {
           <li>Timely execution of services</li>
           <li>Competitive Prices</li>
         </ul>
-        <button className="mt-4 bg-[#1abc9c] text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition duration-300">
+        <button type="button" className="mt-4 bg-[#1abc9c] text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition duration-300">
           More
         </button>
       </div>
@@ -112,7 +112,7 @@ const Introduction = () => {
           <li>Organized & hassle-free</li>
           <li>Personalized</li>
         </ul>
-        <button className="mt-4 bg-[#1abc9c] text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition duration-300">
+        <button type="button" className="mt-4 bg-[#1abc9c] text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition duration-300">
           More
         </button>
       </div>
@@ -131,7 +131,7 @@ const Introduction = () => {
           <li>Online Quality Control</li>
           <li>Minimize Rejection Percentage</li>
         </ul>
-        <button className="mt-4 bg-[#1abc9c] text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition duration-300">
+        <button type="button" className="mt-4 bg-[#1abc9c] text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition duration-300">
           More
         </button>
       </div>
@@ -147,7 +147,7 @@ const Introduction = () => {
           <li>Guided by a team of highly skilled professionals</li>
           <li>Well-versed in their respective domains</li>
         </ul>
-        <button className="mt-4 bg-[#1abc9c] text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition duration-300">
+        <button type="button" className="mt-4 bg-[#1abc9c] text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition duration-300">
           More
         </button>
       </div>
@@ -166,16 +166,16 @@ const Introduction = () => {
           <p><a href="mailto:info@srivaritextiles.com" className="text-gray-700">assurepointinspectionservices@gmail.com</a></p>
           <p><a href="tel:+919629993955" className="text-gray-700">+91 81222 08866</a></p>
           <div className="flex space-x-4 mt-4">
-  <a href="https://www.facebook.com" target="_blank" className="text-gray-700 hover:text-blue-600 text-2xl">
+  <a href="https://www.facebook.com"  className="text-gray-700 hover:text-blue-600 text-2xl">
     <FaFacebookF /> {/* Facebook Icon */}
   </a>
-  <a href="https://www.instagram.com" target="_blank" className="text-gray-700 hover:text-blue-600 text-2xl">
+  <a href="https://www.instagram.com"  className="text-gray-700 hover:text-blue-600 text-2xl">
     <FaInstagram /> {/* Instagram Icon */}
   </a>
-  <a href="https://www.linkedin.com" target="_blank" className="text-gray-700 hover:text-blue-600 text-2xl">
+  <a href="https://www.linkedin.com"  className="text-gray-700 hover:text-blue-600 text-2xl">
     <FaLinkedinIn /> {/* LinkedIn Icon */}
   </a>
-  <a href="https://www.twitter.com" target="_blank" className="text-gray-700 hover:text-blue-600 text-2xl">
+  <a href="https://www.twitter.com" className="text-gray-700 hover:text-blue-600 text-2xl">
     <FaTwitter /> {/* Twitter Icon */}
   </a>
 </div>
@@ -195,8 +195,9 @@ const Introduction = () => {
         <h3 className="text-2xl font-semibold mb-4">Request A Quote</h3>
         <form className="space-y-6">
           <div>
-            <label className="block text-gray-700">Full Name</label>
+            <label htmlFor="fullName" className="block text-gray-700">Full Name</label>
             <input
+              id="fullName"
               type="text"
               name="fullName"
               placeholder="Your Full Name"
@@ -205,8 +206,9 @@ const Introduction = () => {
           </div>
 
           <div>
-            <label className="block text-gray-700">Email</label>
+            <label htmlFor="email" className="block text-gray-700">Email</label>
             <input
+              id="email"
               type="email"
               name="email"
               placeholder="Your Email Address"
@@ -215,15 +217,16 @@ const Introduction = () => {
           </div>
 
           <div>
-            <label className="block text-gray-700">Message</label>
+            <label htmlFor="message" className="block text-gray-700">Message</label>
             <textarea
+              id="message"
               name="message"
               placeholder="Your Message Here..."
               className="w-full p-3 border rounded-md border-gray-300"
             />
           </div>
 
-          <button className="bg-teal-500 text-white px-6 py-2 rounded-lg hover:bg-teal-600 transition duration-300 w-full">
+          <button type="button" className="bg-teal-500 text-white px-6 py-2 rounded-lg hover:bg-teal-600 transition duration-300 w-full">
             Send Message
           </button>
         </form>

@@ -37,7 +37,7 @@ const Header = () => {
 
           {/* Call Us Button */}
           <Link href="tel:+919629993955">
-            <button className="bg-teal-500 text-white px-6 py-2 rounded-lg hover:bg-teal-600 transition duration-300">
+            <button type="button" className="bg-teal-500 text-white px-6 py-2 rounded-lg hover:bg-teal-600 transition duration-300">
               Call Us
             </button>
           </Link>
