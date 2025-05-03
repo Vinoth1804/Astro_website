@@ -5,7 +5,7 @@ import Header from './component/Header';
 import './globals.css';  // Make sure your global CSS is imported
 
 export const metadata = {
-  title: 'V&A Textile Inspection',
+  title: 'Assurance Textile Inspection',
   description: 'We provide top-notch textile inspection and testing services.',
 };
 

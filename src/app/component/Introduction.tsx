@@ -183,10 +183,10 @@ const Introduction = () => {
 
         <div className="text-gray-700">
           <h3 className="text-2xl font-semibold mb-4">Address Details</h3>
-          <p>SRI VARI TEXTILES</p>
-          <p>2/1A, Kulathupalayam Pirivu,</p>
-            <p>Uthukuli Main Road, S.Periyapalayam (P.O),</p>
-            <p> TIRUPUR</p>
+          <p>Assurance Inspection</p>
+          <p>Sherif colony extension,</p>
+            <p>Akk food court opposite, Old busstand near</p>
+            <p> Tiruppur - 641604</p>
         </div>
       </div>
 
