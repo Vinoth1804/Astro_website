@@ -75,12 +75,10 @@ const Introduction = () => {
       {/* Grid of 4 Sections (Why V&A, Highlights, Quality Services, Our Team) */}
       <div className="bg-gray-100 p-8">
   <div className="max-w-screen-xl mx-auto text-center mb-12">
-    
-
     {/* Use flex and little gap between sections */}
-    <div className="flex justify-between gap-6">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
       {/* Why V&A Section */}
-      <div className="bg-white border border-gray-200 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 w-full sm:w-1/4">
+      <div className="bg-white border border-gray-200 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
         <div className="text-4xl mb-4 text-green-600">
           <span role="img" aria-label="question">❓</span>
         </div>
@@ -99,7 +97,7 @@ const Introduction = () => {
       </div>
 
       {/* Highlights Section */}
-      <div className="bg-white border border-gray-200 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 w-full sm:w-1/4">
+      <div className="bg-white border border-gray-200 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
         <div className="text-4xl mb-4 text-green-600">
           <span role="img" aria-label="highlight">✏️</span>
         </div>
@@ -118,7 +116,7 @@ const Introduction = () => {
       </div>
 
       {/* Quality Services Section */}
-      <div className="bg-white border border-gray-200 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 w-full sm:w-1/4">
+      <div className="bg-white border border-gray-200 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
         <div className="text-4xl mb-4 text-green-600">
           <span role="img" aria-label="handshake">🤝</span>
         </div>
@@ -137,7 +135,7 @@ const Introduction = () => {
       </div>
 
       {/* Our Team Section */}
-      <div className="bg-white border border-gray-200 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 w-full sm:w-1/4">
+      <div className="bg-white border border-gray-200 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
         <div className="text-4xl mb-4 text-green-600">
           <span role="img" aria-label="team">👥</span>
         </div>
@@ -154,6 +152,13 @@ const Introduction = () => {
     </div>
   </div>
 </div>
+
+
+
+
+
+
+
 <div className="bg-white p-8">
   <div className="max-w-screen-xl mx-auto">
     <h2 className="text-4xl font-bold text-[#1abc9c] text-center mb-12">Get In Touch</h2>

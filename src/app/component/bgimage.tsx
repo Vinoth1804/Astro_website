@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 const DynamicBackground = () => {
   // Update with relative image paths starting from the public folder
   const images = [
-    '/image3.jpg', // Ensure images are in the public/ folder or subfolders
+    '/image1.jpg', // Ensure images are in the public/ folder or subfolders
     '/image4.jpg',
     '/image5.jpg'
     // Add more images as needed
