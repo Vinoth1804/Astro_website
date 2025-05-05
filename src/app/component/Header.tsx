@@ -8,6 +8,7 @@ const Header = () => {
       {/* Main navigation bar */}
       <header className="bg-white py-4 px-6 shadow-md sticky top-0 z-50">
         <div className="container mx-auto flex justify-between items-center flex-wrap">
+         
           {/* Logo and Title */}
           <div className="flex items-center space-x-3 w-full md:w-auto mb-4 md:mb-0">
             {/* Update logo path */}
@@ -15,8 +16,7 @@ const Header = () => {
             {/* Logo size adjusted */}
             <div>
               <h1 className="text-2xl font-bold text-gray-700">Assure Point Inspection</h1>
-              <p className="text-base font-serif text-gray-600">perfect place for perfect quality</p>
-
+              <p className="  text-gray-600 text-sm font-extralight">Perfect Place For Perfect Quality</p>
             </div>
           </div>
 
