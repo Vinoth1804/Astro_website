@@ -82,7 +82,7 @@ const Introduction = () => {
         <div className="text-4xl mb-4 text-green-600">
           <span role="img" aria-label="question">❓</span>
         </div>
-        <h3 className="text-xl font-semibold mb-4">Why V&A?</h3>
+        <h3 className="text-xl font-semibold mb-4">Why Assure?</h3>
         <ul className="space-y-4">
           <li>Accurate and Reliable services</li>
           <li>Good Infrastructure</li>
